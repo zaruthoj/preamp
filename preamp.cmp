@@ -1,0 +1,155 @@
+Cmp-Mod V01 Genere par PcbNew le Sun 07 Jun 2015 04:20:59 PM PDT
+
+BeginCmp
+TimeStamp = 5574CBE1
+Path = /5573BC51
+Reference = A1;
+ValeurCmp = INA217;
+IdModule  = Housings_DIP:DIP-8_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CBE7
+Path = /5573C68A
+Reference = C1;
+ValeurCmp = 1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CBED
+Path = /5573C6BF
+Reference = C2;
+ValeurCmp = 1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CBF3
+Path = /5573CC60
+Reference = C3;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CBF9
+Path = /55749A81
+Reference = C4;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CBFF
+Path = /5573DAF6
+Reference = C5;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC05
+Path = /5573C2BA
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC0B
+Path = /5573C357
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC11
+Path = /5573C000
+Reference = D3;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC17
+Path = /5573C035
+Reference = D4;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC1D
+Path = /5573BFA3
+Reference = P1;
+ValeurCmp = RCA_IN;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC24
+Path = /5573BE69
+Reference = P2;
+ValeurCmp = Power;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC2A
+Path = /5573ED94
+Reference = P3;
+ValeurCmp = RCA_OUT;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC30
+Path = /5573C7A3
+Reference = R1;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC36
+Path = /5573C7EF
+Reference = R2;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC3C
+Path = /5573BCFE
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC42
+Path = /55749B49
+Reference = R4;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC49
+Path = /5573BDA7
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5574CC52
+Path = /557496EB
+Reference = U1;
+ValeurCmp = TL071;
+IdModule  = Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm;
+EndCmp
+
+EndListe
