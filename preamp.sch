@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
+LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -436,7 +437,7 @@ U 1 1 557496EB
 P 8000 5550
 F 0 "U1" H 8150 5850 70  0000 C CNN
 F 1 "TL071" H 8150 5750 70  0000 C CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 8000 5550 60  0001 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 8000 5550 60  0001 C CNN
 F 3 "" H 8000 5550 60  0000 C CNN
 	1    8000 5550
 	-1   0    0    1   
@@ -565,4 +566,5 @@ F 3 "" H 6900 3100 60  0000 C CNN
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
+Connection ~ 5750 4900
 $EndSCHEMATC
