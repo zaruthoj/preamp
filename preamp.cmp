@@ -1,155 +1,325 @@
-Cmp-Mod V01 Genere par PcbNew le Sun 07 Jun 2015 04:20:59 PM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201505300414+5690~23~ubuntu14.04.1-product   date = Fri 12 Jun 2015 02:09:00 AM PDT
 
 BeginCmp
-TimeStamp = 5574CBE1
-Path = /5573BC51
+TimeStamp = /5573BC51;
 Reference = A1;
 ValeurCmp = INA217;
 IdModule  = Housings_DIP:DIP-8_W7.62mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CBE7
-Path = /5573C68A
+TimeStamp = /557A9AD8;
+Reference = A2;
+ValeurCmp = INA217;
+IdModule  = Housings_DIP:DIP-8_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5573C68A;
 Reference = C1;
 ValeurCmp = 1uf;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CBED
-Path = /5573C6BF
+TimeStamp = /5573C6BF;
 Reference = C2;
 ValeurCmp = 1uf;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CBF3
-Path = /5573CC60
+TimeStamp = /5573CC60;
 Reference = C3;
 ValeurCmp = 0.1uf;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CBF9
-Path = /55749A81
+TimeStamp = /55749A81;
 Reference = C4;
 ValeurCmp = 0.1uf;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CBFF
-Path = /5573DAF6
+TimeStamp = /5573DAF6;
 Reference = C5;
 ValeurCmp = 0.1uf;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC05
-Path = /5573C2BA
+TimeStamp = /557AC5AE;
+Reference = C6;
+ValeurCmp = 1000uF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_20x10mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AC609;
+Reference = C7;
+ValeurCmp = 1000uF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_20x10mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AD4E9;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AD552;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B0E;
+Reference = C10;
+ValeurCmp = 1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B14;
+Reference = C11;
+ValeurCmp = 1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B43;
+Reference = C12;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9BB1;
+Reference = C13;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B51;
+Reference = C14;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5573C2BA;
 Reference = D1;
 ValeurCmp = D;
 IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC0B
-Path = /5573C357
+TimeStamp = /5573C357;
 Reference = D2;
 ValeurCmp = D;
 IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC11
-Path = /5573C000
+TimeStamp = /5573C000;
 Reference = D3;
 ValeurCmp = D;
 IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC17
-Path = /5573C035
+TimeStamp = /5573C035;
 Reference = D4;
 ValeurCmp = D;
 IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC1D
-Path = /5573BFA3
+TimeStamp = /557AA43E;
+Reference = D5;
+ValeurCmp = Diode_Bridge;
+IdModule  = preamp:Bridge-Rectifier-SOIC-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AA650;
+Reference = D6;
+ValeurCmp = Diode_Bridge;
+IdModule  = preamp:Bridge-Rectifier-SOIC-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B02;
+Reference = D7;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B08;
+Reference = D8;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9AF6;
+Reference = D9;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9AFC;
+Reference = D10;
+ValeurCmp = D;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5573BFA3;
 Reference = P1;
 ValeurCmp = RCA_IN;
 IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC24
-Path = /5573BE69
+TimeStamp = /557ADE02;
 Reference = P2;
-ValeurCmp = Power;
+ValeurCmp = CONN_01X02;
 IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC2A
-Path = /5573ED94
+TimeStamp = /5573ED94;
 Reference = P3;
 ValeurCmp = RCA_OUT;
 IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC30
-Path = /5573C7A3
+TimeStamp = /557A9AF0;
+Reference = P4;
+ValeurCmp = RCA_IN;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B60;
+Reference = P5;
+ValeurCmp = RCA_OUT;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5573C7A3;
 Reference = R1;
 ValeurCmp = 2.2k;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC36
-Path = /5573C7EF
+TimeStamp = /5573C7EF;
 Reference = R2;
 ValeurCmp = 2.2k;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC3C
-Path = /5573BCFE
+TimeStamp = /5573BCFE;
 Reference = R3;
 ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC42
-Path = /55749B49
+TimeStamp = /55749B49;
 Reference = R4;
 ValeurCmp = 1M;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC49
-Path = /5573BDA7
+TimeStamp = /557A9B1A;
+Reference = R5;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9B20;
+Reference = R6;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9ADE;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A9BB8;
+Reference = R8;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5573BDA7;
 Reference = RV1;
 ValeurCmp = 10k;
 IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
 EndCmp
 
 BeginCmp
-TimeStamp = 5574CC52
-Path = /557496EB
+TimeStamp = /557A9AE4;
+Reference = RV2;
+ValeurCmp = 10k;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AA3F0;
+Reference = T1;
+ValeurCmp = TRANSFO2;
+IdModule  = preamp:preamp_transformer_6pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /557AF98A;
 Reference = U1;
-ValeurCmp = TL071;
-IdModule  = Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm;
+ValeurCmp = OPA137N;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /557ACA56;
+Reference = U2;
+ValeurCmp = LM7815CT;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /557ACAA9;
+Reference = U3;
+ValeurCmp = LM7915CT;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /557B0BDE;
+Reference = U4;
+ValeurCmp = OPA137N;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 EndListe

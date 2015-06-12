@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Dioden_SMD_RevA_06Sep2012)(type Legacy)(uri "$(KIPRJMOD)/Dioden_SMD_RevA_06Sep2012/Dioden_SMD_RevA_06Sep2012.mod")(options "")(descr ""))
+  (lib (name preamp)(type KiCad)(uri "$(KIPRJMOD)/preamp.pretty")(options "")(descr ""))
 )
