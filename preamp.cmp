@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201505300414+5690~23~ubuntu14.04.1-product   date = Sun 14 Jun 2015 05:07:01 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Tuesday, June 16, 2015 'PMt' 12:48:20 PM
 
 BeginCmp
 TimeStamp = /5573BC51;
@@ -148,13 +148,6 @@ IdModule  = preamp:Bridge-Rectifier-SOIC-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /557AA650;
-Reference = D6;
-ValeurCmp = Diode_Bridge;
-IdModule  = preamp:Bridge-Rectifier-SOIC-4;
-EndCmp
-
-BeginCmp
 TimeStamp = /557A9B02;
 Reference = D7;
 ValeurCmp = D;
@@ -201,6 +194,13 @@ TimeStamp = /557E23E2;
 Reference = P3;
 ValeurCmp = CONN_01X04;
 IdModule  = preamp:preamp_RCA_STEREO;
+EndCmp
+
+BeginCmp
+TimeStamp = /558063EE;
+Reference = P4;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /557AA3F0;
 Reference = T1;
 ValeurCmp = TRANSFO2;
-IdModule  = preamp:preamp_transformer_6pin;
+IdModule  = preamp:preamp_transformer_6pin_half;
 EndCmp
 
 BeginCmp
