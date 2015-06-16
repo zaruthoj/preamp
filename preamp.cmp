@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201505300414+5690~23~ubuntu14.04.1-product   date = Fri 12 Jun 2015 02:09:00 AM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201505300414+5690~23~ubuntu14.04.1-product   date = Sun 14 Jun 2015 05:07:01 PM PDT
 
 BeginCmp
 TimeStamp = /5573BC51;
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /557AD4E9;
 Reference = C8;
-ValeurCmp = C;
+ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /557AD552;
 Reference = C9;
-ValeurCmp = C;
+ValeurCmp = 1uF t;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -116,28 +116,28 @@ BeginCmp
 TimeStamp = /5573C2BA;
 Reference = D1;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /5573C357;
 Reference = D2;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /5573C000;
 Reference = D3;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /5573C035;
 Reference = D4;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
@@ -158,63 +158,49 @@ BeginCmp
 TimeStamp = /557A9B02;
 Reference = D7;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /557A9B08;
 Reference = D8;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /557A9AF6;
 Reference = D9;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /557A9AFC;
 Reference = D10;
 ValeurCmp = D;
-IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-Universal-SMA-SMB_Handsoldering_RevA_27July2010;
+IdModule  = Dioden_SMD_RevA_06Sep2012:Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
-TimeStamp = /5573BFA3;
+TimeStamp = /557E0364;
 Reference = P1;
-ValeurCmp = RCA_IN;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+ValeurCmp = CONN_01X04;
+IdModule  = preamp:preamp_RCA_STEREO;
 EndCmp
 
 BeginCmp
 TimeStamp = /557ADE02;
 Reference = P2;
 ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+IdModule  = preamp:Power_Pin_Header;
 EndCmp
 
 BeginCmp
-TimeStamp = /5573ED94;
+TimeStamp = /557E23E2;
 Reference = P3;
-ValeurCmp = RCA_OUT;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /557A9AF0;
-Reference = P4;
-ValeurCmp = RCA_IN;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /557A9B60;
-Reference = P5;
-ValeurCmp = RCA_OUT;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+ValeurCmp = CONN_01X04;
+IdModule  = preamp:preamp_RCA_STEREO;
 EndCmp
 
 BeginCmp
@@ -295,7 +281,7 @@ IdModule  = preamp:preamp_transformer_6pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /557AF98A;
+TimeStamp = /557E3F96;
 Reference = U1;
 ValeurCmp = OPA137N;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
@@ -316,7 +302,7 @@ IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
-TimeStamp = /557B0BDE;
+TimeStamp = /557E4437;
 Reference = U4;
 ValeurCmp = OPA137N;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
