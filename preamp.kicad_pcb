@@ -6,7 +6,7 @@
     (area 67.259999 57.099999 116.890001 100.380001)
     (thickness 1.6)
     (drawings 9)
-    (tracks 232)
+    (tracks 230)
     (zones 0)
     (modules 46)
     (nets 36)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -1656,8 +1656,6 @@
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
 
-  (segment (start 42.038 78.74) (end 42.672 78.74) (width 0.25) (layer F.Cu) (net 0))
-  (segment (start 42.038 88.9) (end 42.672 88.9) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 86.995 70.485) (end 87.138 70.628) (width 0.25) (layer F.Cu) (net 0) (tstamp 557F730C))
   (segment (start 88.535 72.279) (end 88.535 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 557E2252) (status 30))
   (segment (start 88.535 72.279) (end 88.535 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 557E2207) (status 30))
